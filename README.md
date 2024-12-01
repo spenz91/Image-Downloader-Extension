@@ -26,11 +26,11 @@ Click the puzzle piece icon ⚙️ in the toolbar.
 Find Image Downloader Extension and click the pin icon next to it for easy access.
 
 ## Usage
- 1. Open the Extension Popup
+### Open the Extension Popup
 
 Click on the Image Downloader Extension icon in the Chrome toolbar to open the popup.
 
- 2. Capture Images
+### Capture Images
 
 Browse any website with images. The extension will automatically capture image URLs from network requests.
 Captured images will appear in the Captured Images list within the popup.
