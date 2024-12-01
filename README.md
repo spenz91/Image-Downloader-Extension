@@ -1,43 +1,49 @@
-# Image Downloader Extension
+# Media Capture Extension
 
-**Image Downloader Extension** is a Chrome extension that allows you to capture and download images from any website effortlessly. It monitors network requests to identify image files and provides a user-friendly interface to preview and download them.
+**Media Capture Extension** is a simple, yet powerful Chrome extension that allows users to capture and download media files (like video and audio) directly from network requests. Perfect for users who want to save media content for offline viewing or analysis.
 
 ## Features
 
-- **Automatic Image Capture**: Detects and lists image files (`.png`, `.jpg`, `.jpeg`, `.gif`, `.bmp`, `.webp`, `.svg`) from network requests.
-- **Download Images**: Easily download individual images with a single click.
-- **Image Preview**: Hover over image links to see a preview before downloading.
-- **Clear Image List**: Remove all captured images from the list.
-- **Refresh List**: Update the list to capture new images.
+- **Capture Media Files**: Intercepts media files from network requests as you browse.
+- **Download Media Files**: Download intercepted media files directly to your device for offline access.
+- **User-Friendly**: Simple interface for easy use, making media capturing accessible for everyone.
+
+<p align="center">
+    <img width="300" src="https://i.ibb.co/26PLBCX/2024-11-14-16-28-20-apache-cordova-plugin-media-capture-Apache-Cordova-Media-Capture-Plugin.png" alt="Material Bread logo">
+</p>
 
 ## Installation
 
-Load the Extension in Chrome
+1. **Download the Extension**:
+   - Clone or download the repository from GitHub or [LINK](https://chromewebstore.google.com/detail/media-capture-extension/fjeifmfdhliamofjajllhichjklacadl)
+   
+2. **Load into Chrome**:
+   - Open Chrome and navigate to `chrome://extensions/`.
+   - Enable **Developer Mode** (top-right corner).
+   - Click on **Load unpacked** and select the folder where you downloaded the extension files.
 
-Open Chrome and go to `chrome://extensions/.`
-Enable Developer mode by toggling the switch in the top right corner.
-Click Load unpacked and select the `image-downloader-extension` folder.
+## Usage
 
-### Pin the Extension (Optional)
+1. Once the extension is installed and enabled, it will automatically begin monitoring network requests for media files.
+2. When media files are detected, you can view and download them from the extension’s interface.
 
-Click the puzzle piece icon ⚙️ in the toolbar.
-Find Image Downloader Extension and click the pin icon next to it for easy access.
-Usage
-Open the Extension Popup
+## Permissions
 
-Click on the Image Downloader Extension icon in the Chrome toolbar to open the popup.
+This extension requires certain permissions to function properly:
+- **webRequest**: Allows the extension to intercept network requests to identify media files.
+- **downloads**: Enables the extension to save media files to your device.
+- **storage**: Stores user settings and preferences locally.
 
-### Capture Images
+> **Note:** These permissions are essential for the extension to function as described. The extension does not collect, store, or transfer any personally identifiable information.
 
-Browse any website with images. The extension will automatically capture image URLs from network requests.
-Captured images will appear in the Captured Images list within the popup.
-Preview Images
+## Privacy Policy
 
-Hover over an image link in the list to see a live preview on the left side of the popup.
-Download Images
+Media Capture Extension is designed with user privacy in mind. No personal data is collected, stored, or shared with third parties. For more details, please refer to the [Privacy Policy](https://www.termsfeed.com/live/98268c55-4005-4b75-9969-6ce95e79eb4e).
 
-Click the Download button next to an image to save it to your device.
-Manage Image List
+## Contributing
 
-- Clear List: Click the Clear List button to remove all captured images.
-- Refresh: Click the Refresh button to reload the list of captured images.
+Contributions are welcome! If you’d like to contribute to this project, feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](https://mit-license.org/) file for more details.
