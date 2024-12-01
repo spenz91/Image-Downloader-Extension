@@ -39,25 +39,5 @@ Download Images
 Click the Download button next to an image to save it to your device.
 Manage Image List
 
-Clear List: Click the Clear List button to remove all captured images.
-Refresh: Click the Refresh button to reload the list of captured images.
-
-## Usage
-Open the Extension Popup
-
-Click on the Image Downloader Extension icon in the Chrome toolbar to open the popup.
-
-Capture Images
-
-Browse any website with images. The extension will automatically capture image URLs from network requests.
-Captured images will appear in the Captured Images list within the popup.
-Preview Images
-
-Hover over an image link in the list to see a live preview on the left side of the popup.
-Download Images
-
-Click the Download button next to an image to save it to your device.
-Manage Image List
-
 - Clear List: Click the Clear List button to remove all captured images.
 - Refresh: Click the Refresh button to reload the list of captured images.
