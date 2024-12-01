@@ -61,6 +61,3 @@ Manage Image List
 
 - Clear List: Click the Clear List button to remove all captured images.
 - Refresh: Click the Refresh button to reload the list of captured images.
-
-Clear List: Click the Clear List button to remove all captured images.
-Refresh: Click the Refresh button to reload the list of captured images.
